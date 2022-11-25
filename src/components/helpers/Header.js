@@ -7,6 +7,8 @@ const Header = ()=>{
             <h1 className="fw-bold h1">
                 Suggar Page
             </h1>
+
+            <Icono/>
             
 
         </header>

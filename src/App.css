@@ -1,19 +1,18 @@
 .header{
   background-color: #8583C2;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  align-items:center;
   width: 100%;
   height: 100px;
 }
 
 .icono{
-  margin-left: 50px;
+  margin: 90px;
 }
 
 .h1{
-  
-  margin-left: 37%;
-  
+  text-shadow:#C4F2CF 2px 2px 2px ;
 }
 
 .formularios{
@@ -26,6 +25,9 @@
 
 .footer{
   background-color: #8583C2;
+  display: flex;
+  justify-content: space-between;
+  
   width: 100%;
   height: 20vh;
 }
@@ -41,5 +43,50 @@
   background-color: transparent;
   color: #8583C2;
   border-color: #8583C2;
+  box-shadow:#8583C2 2px 2px 2px 2px ;
+  
+}
+
+.botones:hover{
+  background-color: #8583C2;
+  color:#C4F2CF;
+  border: #C4F2CF;
+}
+
+.titulos{
+ box-shadow: #8583C2 1px 1px 1px 1px 1px;
+}
+
+input::placeholder{
+  
+  opacity: 100%;
+}
+
+.redes{
+  width: 50px;
+  height: 50px;
+}
+
+.sectionFooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 93px;
+}
+
+
+.derechos{
+  display: block;
+  
+}
+
+.inputDescripcion{
+  height: 80px;
+}
+
+
+.inputDescripcion::placeholder{
+  margin-top: -10px;
+  text-align:left;
   
 }
